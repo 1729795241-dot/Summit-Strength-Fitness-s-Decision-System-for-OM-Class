@@ -1,0 +1,13 @@
+planning_month,region,sku,forecast_units,target_stock_units,projected_stock_after_central,projected_stock_after_transfers,remaining_gap_to_target,surplus_after_transfers
+Jan-2026,East,Treadmill,1618.75,1737.83,1577.55,1737.55,0.28,0.0
+Jan-2026,East,Elliptical,700.6,777.38,946.0,946.0,0.0,168.62
+Jan-2026,East,Rower,450.0,491.15,491.15,491.15,0.0,0.0
+Jan-2026,East,SmartStrength,397.5,440.37,440.37,440.37,0.0,0.0
+Jan-2026,West,Treadmill,1359.75,1459.78,1384.45,1459.45,0.33,0.0
+Jan-2026,West,Elliptical,610.2,677.07,732.0,732.0,0.0,54.93
+Jan-2026,West,Rower,500.0,545.73,545.73,545.73,0.0,0.0
+Jan-2026,West,SmartStrength,477.0,528.44,528.44,528.44,0.0,0.0
+Jan-2026,Midwest,Treadmill,1061.9,1140.02,1465.0,1230.0,0.0,89.98
+Jan-2026,Midwest,Elliptical,565.0,626.92,960.0,960.0,0.0,333.08
+Jan-2026,Midwest,Rower,350.0,382.01,382.01,382.01,0.0,0.0
+Jan-2026,Midwest,SmartStrength,318.0,352.29,352.29,352.29,0.0,0.0

@@ -1,0 +1,3 @@
+planning_month,from_region,to_region,sku,quantity_units,estimated_road_miles,estimated_transit_days,transfer_cost_per_unit,total_transfer_cost,avoided_stockout_penalty,net_benefit_before_handling_risk,decision_rule
+Jan-2026,Midwest,East,Treadmill,160,668.7,3,55.37,8858.96,83200,74341.04,Transfer if stockout penalty exceeds transfer cost and sender remains above target stock.
+Jan-2026,Midwest,West,Treadmill,75,2093.4,6,134.98,10123.81,39000,28876.19,Transfer if stockout penalty exceeds transfer cost and sender remains above target stock.

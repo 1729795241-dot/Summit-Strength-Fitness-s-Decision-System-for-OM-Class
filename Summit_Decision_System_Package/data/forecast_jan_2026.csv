@@ -1,0 +1,13 @@
+planning_month,region,sku,forecast_units,monthly_forecast_error_sd,forecast_method
+Jan-2026,East,Treadmill,1618.75,125.0,seasonal baseline with product trend and SKU-level forecast-error assumption
+Jan-2026,East,Elliptical,700.6,80.6,seasonal baseline with product trend and SKU-level forecast-error assumption
+Jan-2026,East,Rower,450.0,43.2,seasonal baseline with product trend and SKU-level forecast-error assumption
+Jan-2026,East,SmartStrength,397.5,45.0,seasonal baseline with product trend and SKU-level forecast-error assumption
+Jan-2026,West,Treadmill,1359.75,105.0,seasonal baseline with product trend and SKU-level forecast-error assumption
+Jan-2026,West,Elliptical,610.2,70.2,seasonal baseline with product trend and SKU-level forecast-error assumption
+Jan-2026,West,Rower,500.0,48.0,seasonal baseline with product trend and SKU-level forecast-error assumption
+Jan-2026,West,SmartStrength,477.0,54.0,seasonal baseline with product trend and SKU-level forecast-error assumption
+Jan-2026,Midwest,Treadmill,1061.9,82.0,seasonal baseline with product trend and SKU-level forecast-error assumption
+Jan-2026,Midwest,Elliptical,565.0,65.0,seasonal baseline with product trend and SKU-level forecast-error assumption
+Jan-2026,Midwest,Rower,350.0,33.6,seasonal baseline with product trend and SKU-level forecast-error assumption
+Jan-2026,Midwest,SmartStrength,318.0,36.0,seasonal baseline with product trend and SKU-level forecast-error assumption

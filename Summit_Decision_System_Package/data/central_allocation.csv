@@ -1,0 +1,13 @@
+planning_month,region,sku,request_units,central_stock_units,direct_customer_commitment_units,available_for_regional_replenishment,central_allocated_units,unfilled_request_after_central
+Jan-2026,East,Treadmill,717.83,1000,350,650,557.55,160.28
+Jan-2026,West,Treadmill,167.78,1000,350,650,92.45,75.33
+Jan-2026,Midwest,Treadmill,0.0,1000,350,650,0.0,0.0
+Jan-2026,East,Elliptical,0.0,2200,240,1960,0.0,0.0
+Jan-2026,West,Elliptical,0.0,2200,240,1960,0.0,0.0
+Jan-2026,Midwest,Elliptical,0.0,2200,240,1960,0.0,0.0
+Jan-2026,East,Rower,95.15,650,120,530,95.15,0.0
+Jan-2026,West,Rower,20.73,650,120,530,20.73,0.0
+Jan-2026,Midwest,Rower,50.01,650,120,530,50.01,0.0
+Jan-2026,East,SmartStrength,114.37,520,120,400,114.37,0.0
+Jan-2026,West,SmartStrength,51.44,520,120,400,51.44,0.0
+Jan-2026,Midwest,SmartStrength,66.29,520,120,400,66.29,0.0

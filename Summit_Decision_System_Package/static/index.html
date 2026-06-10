@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Summit Inventory Review</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="header">
+      <div>
+        <h1>Summit Inventory Review</h1>
+        <p>Run the inventory model, review the DeepSeek note, and inspect the supporting files.</p>
+      </div>
+      <span class="status" id="statusBadge">Ready</span>
+    </header>
+
+    <section class="runbar">
+      <label class="key-field">
+        <span>DeepSeek key</span>
+        <input id="apiKey" type="password" autocomplete="off" placeholder="Paste key for this run">
+      </label>
+      <button id="runBtn" class="primary">Run Review</button>
+      <button id="refreshBtn" class="secondary">Load Latest</button>
+      <details class="advanced">
+        <summary>Advanced</summary>
+        <label>
+          <span>Model</span>
+          <input id="model" type="text" value="deepseek-v4-pro">
+        </label>
+        <label>
+          <span>Base URL</span>
+          <input id="baseUrl" type="text" value="https://api.deepseek.com">
+        </label>
+      </details>
+    </section>
+
+    <section class="message" id="message" hidden></section>
+
+    <section class="panel decision-panel">
+      <div class="panel-head">
+        <h2>Review Summary</h2>
+        <a href="/outputs/data/ai_decision_review.json" target="_blank">JSON</a>
+      </div>
+      <p class="executive" id="executiveDecision">No review loaded.</p>
+      <div class="decision-list" id="decisionList"></div>
+    </section>
+
+    <section class="summary-grid">
+      <article class="panel">
+        <div class="panel-head">
+          <h2>KPI</h2>
+          <a href="/outputs/data/kpi_summary.csv" target="_blank">CSV</a>
+        </div>
+        <div class="metric-stack" id="kpiCards"></div>
+      </article>
+
+      <article class="panel">
+        <div class="panel-head">
+          <h2>Transfers</h2>
+          <a href="/outputs/data/transfer_recommendations.csv" target="_blank">CSV</a>
+        </div>
+        <table>
+          <thead>
+            <tr><th>Lane</th><th>SKU</th><th>Qty</th><th>Net</th></tr>
+          </thead>
+          <tbody id="transferRows"></tbody>
+        </table>
+      </article>
+
+      <article class="panel">
+        <div class="panel-head">
+          <h2>Production</h2>
+          <a href="/outputs/data/production_plan.csv" target="_blank">CSV</a>
+        </div>
+        <table>
+          <thead>
+            <tr><th>SKU</th><th>Surplus</th><th>Adj.</th></tr>
+          </thead>
+          <tbody id="productionRows"></tbody>
+        </table>
+      </article>
+    </section>
+
+    <footer class="footer">
+      <a href="/outputs/reports/simulation_data_and_system_results.md" target="_blank">System report</a>
+      <span>The key is used for this local run and is not saved by the app.</span>
+    </footer>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

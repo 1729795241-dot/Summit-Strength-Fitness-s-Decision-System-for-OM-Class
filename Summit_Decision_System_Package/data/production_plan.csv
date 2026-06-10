@@ -1,0 +1,5 @@
+planning_month,sku,network_forecast_units,network_target_stock_units,projected_network_stock_after_transfers,remaining_network_gap_units,network_surplus_units,recommended_production_adjustment_pct,recommendation
+Jan-2026,Treadmill,4040.4,4337.63,4427.0,0.0,89.37,0,Keep production near the base plan and use regional transfers only for local imbalances.
+Jan-2026,Elliptical,1875.8,2081.37,2638.0,0.0,556.63,-40,"Pilot a constrained reduction of up to 40% for the next planning cycle; verify changeover cost, labor impact, and channel effects before full execution."
+Jan-2026,Rower,1300.0,1418.89,1418.89,0.0,0.0,0,Keep production near the base plan and use regional transfers only for local imbalances.
+Jan-2026,SmartStrength,1192.5,1321.1,1321.1,0.0,0.0,0,Keep production near the base plan and use regional transfers only for local imbalances.

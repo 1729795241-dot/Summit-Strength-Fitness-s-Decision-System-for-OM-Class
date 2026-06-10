@@ -1,0 +1,13 @@
+planning_month,region,sku,on_hand_units,coverage_ratio_used,setup_note
+Jan-2026,East,Treadmill,1020,0.63,"Constructed to reflect case pattern: East treadmill stockout pressure, Midwest low turnover, and elliptical overstock."
+Jan-2026,East,Elliptical,946,1.35,"Constructed to reflect case pattern: East treadmill stockout pressure, Midwest low turnover, and elliptical overstock."
+Jan-2026,East,Rower,396,0.88,"Constructed to reflect case pattern: East treadmill stockout pressure, Midwest low turnover, and elliptical overstock."
+Jan-2026,East,SmartStrength,326,0.82,"Constructed to reflect case pattern: East treadmill stockout pressure, Midwest low turnover, and elliptical overstock."
+Jan-2026,West,Treadmill,1292,0.95,"Constructed to reflect case pattern: East treadmill stockout pressure, Midwest low turnover, and elliptical overstock."
+Jan-2026,West,Elliptical,732,1.2,"Constructed to reflect case pattern: East treadmill stockout pressure, Midwest low turnover, and elliptical overstock."
+Jan-2026,West,Rower,525,1.05,"Constructed to reflect case pattern: East treadmill stockout pressure, Midwest low turnover, and elliptical overstock."
+Jan-2026,West,SmartStrength,477,1.0,"Constructed to reflect case pattern: East treadmill stockout pressure, Midwest low turnover, and elliptical overstock."
+Jan-2026,Midwest,Treadmill,1465,1.38,"Constructed to reflect case pattern: East treadmill stockout pressure, Midwest low turnover, and elliptical overstock."
+Jan-2026,Midwest,Elliptical,960,1.7,"Constructed to reflect case pattern: East treadmill stockout pressure, Midwest low turnover, and elliptical overstock."
+Jan-2026,Midwest,Rower,332,0.95,"Constructed to reflect case pattern: East treadmill stockout pressure, Midwest low turnover, and elliptical overstock."
+Jan-2026,Midwest,SmartStrength,286,0.9,"Constructed to reflect case pattern: East treadmill stockout pressure, Midwest low turnover, and elliptical overstock."

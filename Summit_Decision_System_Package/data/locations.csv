@@ -1,0 +1,5 @@
+node,role,city,state,latitude,longitude,rationale
+Central,Manufacturing plant and central warehouse,Chicago,IL,41.8781,-87.6298,The case states that Summit is headquartered in Chicago and has a central warehouse adjacent to its manufacturing plant.
+East,East Coast regional warehouse,Allentown,PA,40.6023,-75.4714,"Allentown/Lehigh Valley is a realistic Northeast logistics hub with access to New York, New Jersey, Philadelphia, and I-78/I-476 corridors."
+West,West Coast regional warehouse,Ontario,CA,34.0633,-117.6509,Ontario in California's Inland Empire is a realistic West Coast distribution location near Los Angeles ports and large fulfillment networks.
+Midwest,Midwest regional warehouse,Indianapolis,IN,39.7684,-86.1581,Indianapolis is a realistic Midwest distribution hub with strong interstate access and close enough to Chicago to make the CFO's closure proposal plausible.

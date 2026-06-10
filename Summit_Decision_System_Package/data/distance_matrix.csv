@@ -1,0 +1,17 @@
+from_node,to_node,from_city,to_city,great_circle_miles,estimated_road_miles,estimated_truck_transit_days
+Central,Central,"Chicago, IL","Chicago, IL",0.0,0.0,0
+Central,East,"Chicago, IL","Allentown, PA",637.3,752.0,3
+Central,West,"Chicago, IL","Ontario, CA",1711.8,2019.9,6
+Central,Midwest,"Chicago, IL","Indianapolis, IN",164.8,194.5,2
+East,Central,"Allentown, PA","Chicago, IL",637.3,752.0,3
+East,East,"Allentown, PA","Allentown, PA",0.0,0.0,0
+East,West,"Allentown, PA","Ontario, CA",2338.0,2758.8,7
+East,Midwest,"Allentown, PA","Indianapolis, IN",566.7,668.7,3
+West,Central,"Ontario, CA","Chicago, IL",1711.8,2019.9,6
+West,East,"Ontario, CA","Allentown, PA",2338.0,2758.8,7
+West,West,"Ontario, CA","Ontario, CA",0.0,0.0,0
+West,Midwest,"Ontario, CA","Indianapolis, IN",1774.1,2093.4,6
+Midwest,Central,"Indianapolis, IN","Chicago, IL",164.8,194.5,2
+Midwest,East,"Indianapolis, IN","Allentown, PA",566.7,668.7,3
+Midwest,West,"Indianapolis, IN","Ontario, CA",1774.1,2093.4,6
+Midwest,Midwest,"Indianapolis, IN","Indianapolis, IN",0.0,0.0,0
